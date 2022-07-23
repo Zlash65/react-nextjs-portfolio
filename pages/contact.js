@@ -1,17 +1,15 @@
 import React from 'react';
 
-import Hero from '../components/Hero';
+import Contact from '../components/Contact';
 import Brands from '../components/Brands';
-import About from '../components/About';
 import Skills from '../components/Skills';
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <div>
-      <Hero />
+      <Contact />
       <Brands />
       <Skills />
-      <About />
     </div>
   );
 }
