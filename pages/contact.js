@@ -8,8 +8,8 @@ export default function ContactPage() {
   return (
     <div>
       <Contact />
-      <Brands />
-      <Skills />
+      {/* <Brands /> */}
+      {/* <Skills /> */}
     </div>
   );
 }
